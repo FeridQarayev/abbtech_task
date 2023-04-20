@@ -5,11 +5,12 @@
 }
 .navbar {
   position: absolute;
-  width: 1920px;
+  width: 100%;
   height: 120px;
   left: calc(50% - 1920px / 2);
   top: 0px;
   background: rgba(94, 93, 88, 0.6);
+  z-index: 999;
 }
 .navbar_container {
   margin: 0px auto;
@@ -47,4 +48,90 @@
 .navbar_container_menu_item img {
   width: 21.09px;
   height: 20px;
+}
+.home {
+  height: 1012px;
+  width: 100%;
+  background-image: url(./images/Layer\ 1\ 5.png);
+  position: relative;
+}
+.home_card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 795px;
+}
+.home_card_text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 213px;
+  font-family: "Montserrat";
+}
+.home_card_up {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.home_card_up span {
+  color: #18cfab;
+}
+.home_card_middle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 78px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.home_card_down {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  color: #d4d4d4;
+}
+.home_card_buttons {
+  margin-top: 129px;
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+}
+.home_card_buttons_left {
+  width: 169px;
+  height: 68px;
+  background: #ffffff;
+  position: relative;
+  border-radius: 5px;
+}
+.home_card_buttons_left button {
+  position: absolute;
+  bottom: 0px;
+  width: 169px;
+  height: 63px;
+  background: #18cfab;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+.home_card_buttons_right {
+  width: 169px;
+  height: 68px;
+  background: #ffffff;
+  position: relative;
+  border-radius: 5px;
+}
+.home_card_buttons_right button {
+  position: absolute;
+  bottom: 0px;
+  width: 169px;
+  height: 63px;
+  background: #00cbf6;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
 }
