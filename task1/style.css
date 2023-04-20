@@ -136,6 +136,7 @@
   text-transform: uppercase;
 }
 .options {
+  margin-top: 8px;
   display: flex;
   justify-content: center;
 }
@@ -198,4 +199,102 @@
 .option:nth-child(4) {
   gap: 59px;
   background: #18cfab;
+}
+.service {
+  margin-top: 90px;
+  margin-bottom: 91px;
+}
+.service_container {
+  margin: 0px auto;
+  width: 1160px;
+  height: 375px;
+}
+.service_container_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 254px;
+  height: 70px;
+  margin: 0px auto;
+}
+.service_container_title p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #4e4e4e;
+}
+.service_container_title_line {
+  width: 91px;
+  height: 8px;
+  position: relative;
+}
+.service_container_title_line div:nth-child(1) {
+  position: absolute;
+  width: 78px;
+  height: 1px;
+  left: 13px;
+  top: 6px;
+  background: #18cfab;
+}
+.service_container_title_line div:nth-child(2) {
+  position: absolute;
+  width: 75.54px;
+  height: 1px;
+  left: 2px;
+  top: 2px;
+  background: #18cfab;
+}
+.service_container_body {
+  margin-top: 67px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.service_container_body_list {
+  display: flex;
+  list-style: none;
+}
+.service_container_body_list {
+  height: 73px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.9859px;
+  line-height: 39px;
+
+  color: #717171;
+  background: #f8fcfe;
+  border: 1px solid #edefef;
+}
+.service_container_body_list:nth-child(1) {
+  color: #ffffff;
+  background: #18cfab;
+}
+.service_container_body_down {
+  margin-top: 27px;
+  display: flex;
+  gap: 5px;
+}
+.service_container_body_down p {
+  margin-left: 13px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13.645px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+
+  color: #777777;
 }
